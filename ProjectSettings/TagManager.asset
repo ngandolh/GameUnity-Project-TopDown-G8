@@ -38,6 +38,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< Updated upstream
   - name: Layer1
     uniqueID: 2425651459
     locked: 0
@@ -47,3 +48,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+=======
+  - name: Background
+    uniqueID: 2425651459
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 4189426099
+    locked: 0
+  - name: GameObject
+    uniqueID: 4250941897
+    locked: 0
+>>>>>>> Stashed changes
