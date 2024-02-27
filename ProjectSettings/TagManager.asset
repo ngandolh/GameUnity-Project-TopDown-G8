@@ -39,21 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: Background
+  - name: Grass
     uniqueID: 2425651459
     locked: 0
-  - name: GameObject
+  - name: Wall
     uniqueID: 4250941897
-  - name: Background
-    uniqueID: 2425651459
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 4189426099
+  - name: Tree
+    uniqueID: 2867472079
     locked: 0
-
