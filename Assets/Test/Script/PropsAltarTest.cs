@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Test
@@ -9,8 +8,8 @@ namespace Test
     {
         public List<SpriteRenderer> runes;
         public float lerpSpeed;
-        private Color curColor;
-        private Color targetColor;
+        public Color curColor;
+        public Color targetColor;
         private bool activated = false;
 
         private void OnTriggerEnter2D(Collider2D other)
