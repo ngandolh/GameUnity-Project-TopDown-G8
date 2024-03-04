@@ -7,9 +7,9 @@ namespace Test
     public class PropsAltarTest : MonoBehaviour
     {
         public List<SpriteRenderer> runes;
-        public float lerpSpeed;
-        public Color curColor;
-        public Color targetColor;
+        public float lerpSpeed = 3;
+        public Color curColor  = new(1,1,1,0);
+        public Color targetColor = new(1,1,1,0);
         private bool activated = false;
 
         private void OnTriggerEnter2D(Collider2D other)
