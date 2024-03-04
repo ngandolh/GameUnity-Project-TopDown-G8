@@ -6,7 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/Large Scene.unity
     guid: abdc868d1f0b87d468d7ec236fbdde08
   - enabled: 1
@@ -18,8 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: d3008b32596d4e54396ecb0b83f4bfc7
-=======
+ - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: f0b0c25d88119f54e9b01ce03d8713d8
->>>>>>> Stashed changes
+
   m_configObjects: {}
