@@ -9,21 +9,35 @@ namespace Cainos.PixelArtTopDown_Basic
     public class PropsAltar : MonoBehaviour
     {
         public List<SpriteRenderer> runes;
-        public float lerpSpeed;
-
-        private Color curColor;
-        private Color targetColor;
+        public float lerpSpeed = 3;
+        private Color curColor = new(1,1,1,0);
+        private Color targetColor = new(1,1,1,0);
+        private bool activated = false;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            targetColor = new Color(1, 1, 1, 1);
+            if (other.gameObject.tag == "Box")
+            {
+                targetColor = new Color(1, 1, 1, 1);
+                if (!activated)
+                {
+                    activated = true;
+                    RuinManagement.activateRune();
+                }
+            }
         }
-
         private void OnTriggerExit2D(Collider2D other)
         {
-            targetColor = new Color(1, 1, 1, 0);
+            if (other.gameObject.tag == "Box")
+            {
+                targetColor = new Color(1, 1, 1, 0);
+                if (activated)
+                {
+                    activated = false;
+                    RuinManagement.deactivateRune();
+                }
+            }
         }
-
         private void Update()
         {
             curColor = Color.Lerp(curColor, targetColor, lerpSpeed * Time.deltaTime);
@@ -33,5 +47,6 @@ namespace Cainos.PixelArtTopDown_Basic
                 r.color = curColor;
             }
         }
+
     }
 }
