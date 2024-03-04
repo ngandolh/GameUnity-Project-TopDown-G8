@@ -61,8 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Test\Script\AltarDoor.cs" />
     <Compile Include="Assets\Test\Script\CameraFollowTest.cs" />
     <Compile Include="Assets\Test\Script\PropsAltarTest.cs" />
+    <Compile Include="Assets\Test\Script\LayerTriggerTest.cs" />
     <Compile Include="Assets\Test\Script\PlayerControllTest.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Test\Script\RuinManager.cs" />
