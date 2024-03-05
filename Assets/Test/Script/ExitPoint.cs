@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ExitPoint : MonoBehaviour
 {
+    public int scene;
     // Example: Load the next scene when something enters the exit point
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +17,6 @@ public class ExitPoint : MonoBehaviour
     private void LoadNextScene()
     {
         // Change "YourNextSceneName" to the name of the scene you want to load
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(scene);
     }
 }
