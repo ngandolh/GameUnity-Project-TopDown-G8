@@ -6,24 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
+    path: Assets/Test/Scenes/Intro.unity
     guid: e318d488fc50b9c4ebb4dda8323f6814
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Test/Scenes/New Scene.unity
     guid: a94bb7d479c49aa41961bd180623f472
   - enabled: 1
-    path: Assets/Scenes/Large Scene.unity
+    path: Assets/Test/Scenes/Ngan (1).unity
+    guid: 7cb27375eaee93445b5bc5418a581bc1
+  - enabled: 1
+    path: Assets/Test/Scenes/Level 2.unity
+    guid: 2382ca559613b4b44bd3feb13e8f8b6c
+  - enabled: 1
+    path: Assets/Test/Scenes/Khang scene.unity
+    guid: 4898f5efcf6fc524191f93e7449f2183
+  - enabled: 1
+    path: Assets/Test/Scenes/Large Scene.unity
     guid: abdc868d1f0b87d468d7ec236fbdde08
   - enabled: 1
     path: Assets/Test/Scenes/Level4-new.unity
     guid: 8af5ae1f53d12b54e81bd7ce27b7097f
-  - enabled: 1
-    path: Assets/Scenes/Khang scene.unity
-    guid: 4898f5efcf6fc524191f93e7449f2183
-  - enabled: 1
-    path: Assets/Scenes/Ngan (1).unity
-    guid: 7cb27375eaee93445b5bc5418a581bc1
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 2382ca559613b4b44bd3feb13e8f8b6c
   m_configObjects: {}
